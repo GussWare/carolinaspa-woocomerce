@@ -1,0 +1,51 @@
+button.menu-toggle,
+button.menu-toggle:hover {
+    background-color: $color_rosa !important;
+    border-color:$color_blanco !important;
+}
+
+button.menu-toggle:after,
+button.menu-toggle:before,
+button.menu-toggle span:before {  
+    background-color: $color_blanco !important;
+}
+
+button.menu-toggle span {
+    color:$color_blanco;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"], .button, .added_to_cart, .widget a.button, .site-header-cart .widget_shopping_cart a.button {
+    background-color: $color_rosa;
+    border-color: $color_rosa;
+    color: $color_blanco;
+}
+
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .button:hover, .added_to_cart:hover, .widget a.button:hover, .site-header-cart .widget_shopping_cart a.button:hover {
+    background-color: #c8698f;
+    border-color: #c8698f;
+    color: $color_blanco;
+}
+
+button.alt, input[type="button"].alt, input[type="reset"].alt, input[type="submit"].alt, .button.alt, .added_to_cart.alt, .widget-area .widget a.button.alt, .added_to_cart, .widget a.button.checkout {
+    background-color: #333333;
+    border-color: #333333;
+    color: $color_blanco;
+}
+
+button.alt:hover, input[type="button"].alt:hover, input[type="reset"].alt:hover, input[type="submit"].alt:hover, .button.alt:hover, .added_to_cart.alt:hover, .widget-area .widget a.button.alt:hover, .added_to_cart:hover, .widget a.button.checkout:hover {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    color: $color_blanco;
+}
+
+.button.loading {
+    color: $color_rosa;
+}
+
+.button.loading:hover {
+    background-color: $color_rosa;
+}
+
+.button.loading:after {
+    color: $color_blanco;
+}

@@ -1,0 +1,12 @@
+.site-footer {
+    background-color: $color_negro;
+    color: $color_blanco;
+
+    & a:not(.button) {
+        color: $color_rosa;
+    }
+}
+
+.site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer h6 {
+    color: $color_gris_dark;
+}

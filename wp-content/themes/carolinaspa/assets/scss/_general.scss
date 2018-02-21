@@ -1,0 +1,20 @@
+body {
+    color:$color_texto;
+    background-color:$color_gris_casi_blanco;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: $color_rosa;
+}
+table th {
+    background-color: #e8e8e8;
+}
+
+table tbody td {
+    background-color: #ededed;
+}
+
+table tbody tr:nth-child(2n) td,
+fieldset,
+fieldset legend {
+    background-color: #ebebeb;
+}

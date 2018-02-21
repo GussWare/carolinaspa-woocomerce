@@ -1,0 +1,10 @@
+.storefront-handheld-footer-bar {
+    ul li a {
+        color: $color_blanco !important;
+    }
+
+    ul li > a,ul li.search .site-search, ul li.cart .count {
+        background-color: $color_rosa !important;
+    }
+}
+

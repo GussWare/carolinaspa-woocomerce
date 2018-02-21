@@ -1,0 +1,8 @@
+.pagination .page-numbers li .page-numbers.current, .woocommerce-pagination .page-numbers li .page-numbers.current {
+    background-color: #d6d6d6;
+    color: #636363;
+}
+
+.pagination .page-numbers li .page-numbers:not(.current) .page-numbers li .page-numbers:not(.current) {
+    color: #6d6d6d;
+}

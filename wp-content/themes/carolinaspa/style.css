@@ -1,0 +1,138 @@
+/*
+    Theme Name: CarolinaSpa WooComerce
+    Theme URI:
+    Description: Tema para el manejo de tiendas online en carolina spa
+    Author: GussWare
+    Template: storefront
+    Version: 1.0
+    License: GNU General Public License
+    Tags: woocomerce sass responsive theme
+*/
+body {
+  color: #6f6767;
+  background-color: #f9f9f9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #e182a8;
+}
+
+table th {
+  background-color: #e8e8e8;
+}
+
+table tbody td {
+  background-color: #ededed;
+}
+
+table tbody tr:nth-child(2n) td,
+fieldset,
+fieldset legend {
+  background-color: #ebebeb;
+}
+
+.site-header {
+  background-color: #e182a8 !important;
+}
+
+.site-title a {
+  color: #fff !important;
+}
+
+.site-title a:hover {
+  color: #fff !important;
+}
+
+.site-branding p.site-description {
+  color: #fff !important;
+}
+
+.storefront-primary-navigation .main-navigation ul li a, .storefront-primary-navigation .site-header-cart .cart-contents {
+  color: #fff !important;
+}
+
+@media screen and (min-width: 768px) {
+  .site-header {
+    border-bottom-color: transparent !important;
+  }
+  .storefront-primary-navigation {
+    background-color: #d2618e;
+  }
+}
+
+button.menu-toggle,
+button.menu-toggle:hover {
+  background-color: #e182a8 !important;
+  border-color: #fff !important;
+}
+
+button.menu-toggle:after,
+button.menu-toggle:before,
+button.menu-toggle span:before {
+  background-color: #fff !important;
+}
+
+button.menu-toggle span {
+  color: #fff;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"], .button, .added_to_cart, .widget a.button, .site-header-cart .widget_shopping_cart a.button {
+  background-color: #e182a8;
+  border-color: #e182a8;
+  color: #fff;
+}
+
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .button:hover, .added_to_cart:hover, .widget a.button:hover, .site-header-cart .widget_shopping_cart a.button:hover {
+  background-color: #c8698f;
+  border-color: #c8698f;
+  color: #fff;
+}
+
+button.alt, input[type="button"].alt, input[type="reset"].alt, input[type="submit"].alt, .button.alt, .added_to_cart.alt, .widget-area .widget a.button.alt, .added_to_cart, .widget a.button.checkout {
+  background-color: #333333;
+  border-color: #333333;
+  color: #fff;
+}
+
+button.alt:hover, input[type="button"].alt:hover, input[type="reset"].alt:hover, input[type="submit"].alt:hover, .button.alt:hover, .added_to_cart.alt:hover, .widget-area .widget a.button.alt:hover, .added_to_cart:hover, .widget a.button.checkout:hover {
+  background-color: #1a1a1a;
+  border-color: #1a1a1a;
+  color: #fff;
+}
+
+.button.loading {
+  color: #e182a8;
+}
+
+.button.loading:hover {
+  background-color: #e182a8;
+}
+
+.button.loading:after {
+  color: #fff;
+}
+
+#comments .comment-list .comment-content .comment-text {
+  background-color: #e8e8e8;
+}
+
+.storefront-handheld-footer-bar ul li a {
+  color: #fff !important;
+}
+
+.storefront-handheld-footer-bar ul li > a, .storefront-handheld-footer-bar ul li.search .site-search, .storefront-handheld-footer-bar ul li.cart .count {
+  background-color: #e182a8 !important;
+}
+
+.site-footer {
+  background-color: #0a0a0a;
+  color: #fff;
+}
+
+.site-footer a:not(.button) {
+  color: #e182a8;
+}
+
+.site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer h6 {
+  color: #333333;
+}

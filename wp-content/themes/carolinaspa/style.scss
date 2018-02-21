@@ -1,3 +1,21 @@
-/** 
-    Thema 
+/*
+    Theme Name: CarolinaSpa WooComerce
+    Theme URI:
+    Description: Tema para el manejo de tiendas online en carolina spa
+    Author: GussWare
+    Template: storefront
+    Version: 1.0
+    License: GNU General Public License
+    Tags: woocomerce sass responsive theme
 */
+
+@import 'assets/scss/_variables.scss'; 
+@import 'assets/scss/_general.scss';  
+@import 'assets/scss/_header.scss';
+@import 'assets/scss/_button.scss';
+@import 'assets/scss/_comments.scss';
+@import 'assets/scss/_handler-footer.scss';
+@import 'assets/scss/_footer.scss';
+//@import 'assets/scss/_customizer.scss'; 
+
+
