@@ -1,0 +1,64 @@
+.menu-item a[href*="dribbble.com"], .menu-item a[href*="facebook.com"], .menu-item a[href*="flickr.com"], .menu-item a[href*="foursquare.com"], .menu-item a[href*="plus.google.com"], .menu-item a[href*="instagram.com"], .menu-item a[href*="linkedin.com"], .menu-item a[href*="pinterest.com"], .menu-item a[href*="reddit.com"], .menu-item a[href*="tumblr.com"], .menu-item a[href*="twitter.com"], .menu-item a[href*="vimeo.com"], .menu-item a[href*="wordpress.com"], .menu-item a[href*="wordpress.org"], .menu-item a[href*="youtube.com"], .menu-item a[href*="mailto:"], .menu-item a[href*="twitch.tv"], .menu-item a[href$="/feed/"] {
+    text-indent: -9999px; }
+    .menu-item a[href*="dribbble.com"]:after, .menu-item a[href*="facebook.com"]:after, .menu-item a[href*="flickr.com"]:after, .menu-item a[href*="foursquare.com"]:after, .menu-item a[href*="plus.google.com"]:after, .menu-item a[href*="instagram.com"]:after, .menu-item a[href*="linkedin.com"]:after, .menu-item a[href*="pinterest.com"]:after, .menu-item a[href*="reddit.com"]:after, .menu-item a[href*="tumblr.com"]:after, .menu-item a[href*="twitter.com"]:after, .menu-item a[href*="vimeo.com"]:after, .menu-item a[href*="wordpress.com"]:after, .menu-item a[href*="wordpress.org"]:after, .menu-item a[href*="youtube.com"]:after, .menu-item a[href*="mailto:"]:after, .menu-item a[href*="twitch.tv"]:after, .menu-item a[href$="/feed/"]:after {
+      font-family: "FontAwesome";
+      text-indent: 0;
+      display: block;
+      float: left; }
+  .menu-item a[href$="/feed/"]:after {
+    content: "\f09e";
+    color: $redes_sociales_feed; }
+  .menu-item a[href*="twitch.tv"]:after {
+    content: "\f1e8";
+    color: $redes_sociales_twitch; }
+  .menu-item a[href*="mailto:"]:after {
+    content: "\f003"; }
+  .menu-item a[href*="youtube.com"]:after {
+    content: "\f167";
+    color: $redes_sociales_youtube; }
+  .menu-item a[href*="wordpress.com"]:after, .menu-item a[href*="wordpress.org"]:after {
+    content: "\f19a";
+    color: $redes_sociales_wordpress; }
+  .menu-item a[href*="vimeo.com"]:after {
+    content: "\f194";
+    color: $redes_sociales_vimeo; }
+  .menu-item a[href*="tumblr.com"]:after {
+    content: "\f173";
+    color: $redes_sociales_tumblr; }
+  .menu-item a[href*="reddit.com"]:after {
+    content: "\f231"; }
+  .menu-item a[href*="twitter.com"]:after {
+    content: "\f099";
+    color: $redes_sociales_twitter; }
+  .menu-item a[href*="dribbble.com"]:after {
+    content: "\f17d";
+    color: $redes_sociales_dribbble; }
+  .menu-item a[href*="facebook.com"]:after {
+    content: "\f09a";
+    color: $redes_sociales_facebook; }
+  .menu-item a[href*="flickr.com"]:after {
+    content: "\f16e";
+    color: $redes_sociales_flickr; }
+  .menu-item a[href*="foursquare.com"]:after {
+    content: "\f180";
+    color: $redes_sociales_foursquare; }
+  .menu-item a[href*="plus.google.com"]:after {
+    content: "\f0d5";
+    color: $redes_sociales_google_plus; }
+  .menu-item a[href*="instagram.com"]:after {
+    content: "\f16d";
+    color: $redes_sociales_instagram; }
+  .menu-item a[href*="linkedin.com"]:after {
+    content: "\f0e1";
+    color: $redes_sociales_linkedin; }
+  .menu-item a[href*="pinterest.com"]:after {
+    content: "\f231";
+    color: $redes_sociales_pinterest; }
+
+    li.redes-sociales a {
+        font-size:1.3rem;
+    }
+
+    li.redes-sociales .menu a {
+        padding:.8rem;
+    }

@@ -31,51 +31,6 @@ fieldset legend {
   background-color: #ebebeb;
 }
 
-.site-header {
-  background-color: #e182a8 !important;
-}
-
-.site-title a {
-  color: #fff !important;
-}
-
-.site-title a:hover {
-  color: #fff !important;
-}
-
-.site-branding p.site-description {
-  color: #fff !important;
-}
-
-.storefront-primary-navigation .main-navigation ul li a, .storefront-primary-navigation .site-header-cart .cart-contents {
-  color: #fff !important;
-}
-
-@media screen and (min-width: 768px) {
-  .site-header {
-    border-bottom-color: transparent !important;
-  }
-  .storefront-primary-navigation {
-    background-color: #d2618e;
-  }
-}
-
-button.menu-toggle,
-button.menu-toggle:hover {
-  background-color: #e182a8 !important;
-  border-color: #fff !important;
-}
-
-button.menu-toggle:after,
-button.menu-toggle:before,
-button.menu-toggle span:before {
-  background-color: #fff !important;
-}
-
-button.menu-toggle span {
-  color: #fff;
-}
-
 button, input[type="button"], input[type="reset"], input[type="submit"], .button, .added_to_cart, .widget a.button, .site-header-cart .widget_shopping_cart a.button {
   background-color: #e182a8;
   border-color: #e182a8;
@@ -100,16 +55,167 @@ button.alt:hover, input[type="button"].alt:hover, input[type="reset"].alt:hover,
   color: #fff;
 }
 
-.button.loading {
-  color: #e182a8;
+.site-header {
+  background-color: #fff !important;
 }
 
-.button.loading:hover {
-  background-color: #e182a8;
+.site-header .site-branding p.site-description {
+  color: #fff !important;
 }
 
-.button.loading:after {
+.site-title a {
+  color: #fff !important;
+}
+
+.site-title a:hover {
+  color: #fff !important;
+}
+
+.storefront-primary-navigation .main-navigation ul li a, .storefront-primary-navigation .site-header-cart .cart-contents {
+  color: #fff !important;
+}
+
+.storefront-primary-navigation .main-navigation ul li a:hover, .storefront-primary-navigation .main-navigation ul li a.active {
+  background-color: #ec7eaa;
+}
+
+button.menu-toggle,
+button.menu-toggle:hover {
+  background-color: #e182a8 !important;
+  border-color: #fff !important;
+}
+
+button.menu-toggle:after,
+button.menu-toggle:before,
+button.menu-toggle span:before {
+  background-color: #fff !important;
+}
+
+button.menu-toggle span {
   color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .site-header {
+    border-bottom-color: transparent !important;
+  }
+  .storefront-primary-navigation {
+    background-color: #d2618e;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .storefront-primary-navigation .menu {
+    background-color: #e182a8;
+  }
+  .storefront-primary-navigation .menu ul {
+    padding-left: 20px;
+  }
+  .storefront-primary-navigation .menu ul a {
+    font-size: 18px;
+  }
+}
+
+.menu-item a[href*="dribbble.com"], .menu-item a[href*="facebook.com"], .menu-item a[href*="flickr.com"], .menu-item a[href*="foursquare.com"], .menu-item a[href*="plus.google.com"], .menu-item a[href*="instagram.com"], .menu-item a[href*="linkedin.com"], .menu-item a[href*="pinterest.com"], .menu-item a[href*="reddit.com"], .menu-item a[href*="tumblr.com"], .menu-item a[href*="twitter.com"], .menu-item a[href*="vimeo.com"], .menu-item a[href*="wordpress.com"], .menu-item a[href*="wordpress.org"], .menu-item a[href*="youtube.com"], .menu-item a[href*="mailto:"], .menu-item a[href*="twitch.tv"], .menu-item a[href$="/feed/"] {
+  text-indent: -9999px;
+}
+
+.menu-item a[href*="dribbble.com"]:after, .menu-item a[href*="facebook.com"]:after, .menu-item a[href*="flickr.com"]:after, .menu-item a[href*="foursquare.com"]:after, .menu-item a[href*="plus.google.com"]:after, .menu-item a[href*="instagram.com"]:after, .menu-item a[href*="linkedin.com"]:after, .menu-item a[href*="pinterest.com"]:after, .menu-item a[href*="reddit.com"]:after, .menu-item a[href*="tumblr.com"]:after, .menu-item a[href*="twitter.com"]:after, .menu-item a[href*="vimeo.com"]:after, .menu-item a[href*="wordpress.com"]:after, .menu-item a[href*="wordpress.org"]:after, .menu-item a[href*="youtube.com"]:after, .menu-item a[href*="mailto:"]:after, .menu-item a[href*="twitch.tv"]:after, .menu-item a[href$="/feed/"]:after {
+  font-family: "FontAwesome";
+  text-indent: 0;
+  display: block;
+  float: left;
+}
+
+.menu-item a[href$="/feed/"]:after {
+  content: "\f09e";
+  color: #ff9900;
+}
+
+.menu-item a[href*="twitch.tv"]:after {
+  content: "\f1e8";
+  color: #6441A5;
+}
+
+.menu-item a[href*="mailto:"]:after {
+  content: "\f003";
+}
+
+.menu-item a[href*="youtube.com"]:after {
+  content: "\f167";
+  color: #bb0000;
+}
+
+.menu-item a[href*="wordpress.com"]:after, .menu-item a[href*="wordpress.org"]:after {
+  content: "\f19a";
+  color: #0073aa;
+}
+
+.menu-item a[href*="vimeo.com"]:after {
+  content: "\f194";
+  color: #aad450;
+}
+
+.menu-item a[href*="tumblr.com"]:after {
+  content: "\f173";
+  color: #32506d;
+}
+
+.menu-item a[href*="reddit.com"]:after {
+  content: "\f231";
+}
+
+.menu-item a[href*="twitter.com"]:after {
+  content: "\f099";
+  color: #00aced;
+}
+
+.menu-item a[href*="dribbble.com"]:after {
+  content: "\f17d";
+  color: #ea4c89;
+}
+
+.menu-item a[href*="facebook.com"]:after {
+  content: "\f09a";
+  color: #3b5998;
+}
+
+.menu-item a[href*="flickr.com"]:after {
+  content: "\f16e";
+  color: #ff0084;
+}
+
+.menu-item a[href*="foursquare.com"]:after {
+  content: "\f180";
+  color: #0072b1;
+}
+
+.menu-item a[href*="plus.google.com"]:after {
+  content: "\f0d5";
+  color: #dd4b39;
+}
+
+.menu-item a[href*="instagram.com"]:after {
+  content: "\f16d";
+  color: #517fa4;
+}
+
+.menu-item a[href*="linkedin.com"]:after {
+  content: "\f0e1";
+  color: #007bb6;
+}
+
+.menu-item a[href*="pinterest.com"]:after {
+  content: "\f231";
+  color: #cb2027;
+}
+
+li.redes-sociales a {
+  font-size: 1.3rem;
+}
+
+li.redes-sociales .menu a {
+  padding: .8rem;
 }
 
 #comments .comment-list .comment-content .comment-text {
@@ -135,4 +241,60 @@ button.alt:hover, input[type="button"].alt:hover, input[type="reset"].alt:hover,
 
 .site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer h6 {
   color: #333333;
+}
+
+.reservados {
+  background-color: #e182a8;
+  color: #fff;
+  padding: .6rem 0;
+  font-size: 14px;
+  text-align: center;
+}
+
+.storefront-product-section ul.products li img {
+  filter: grayscale(100%);
+  transition: all .5s ease;
+}
+
+.storefront-product-section ul.products li img:hover {
+  filter: grayscale(0%);
+  transition: all .5s ease;
+  transform: scale(1.1, 1.1);
+}
+
+.fa.fa-shopping-cart::before {
+  margin-right: 5px;
+}
+
+.button.loading {
+  color: #e182a8;
+}
+
+.button.loading:hover {
+  background-color: #e182a8;
+}
+
+.button.loading:after {
+  color: #fff;
+}
+
+.woocommerce-message {
+  background-color: #84e2c4;
+  color: #fff;
+  font-size: 16px;
+}
+
+.site-header-cart .site-header-cart .count {
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .site-header-cart {
+    background-color: #ec7eaa;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .site-header-cart .cart-contents .count {
+    opacity: 1;
+  }
 }

@@ -1,5 +1,10 @@
 .site-header {
-    background-color: $color_rosa !important;
+    background-color: $color_blanco !important;
+    .site-branding {
+        p.site-description {
+            color: $color_blanco !important;
+        }
+    }
 }
 
 .site-title { 
@@ -12,17 +17,31 @@
     }
 }
 
-.site-branding {
-    p.site-description {
-        color: $color_blanco !important;
-    }
-}
-
 .storefront-primary-navigation {
    
     .main-navigation ul li a, .site-header-cart .cart-contents {
         color:$color_blanco !important;
     }
+
+    .main-navigation ul li a:hover, .main-navigation ul li a.active {
+        background-color:$color_rosa_hover;
+    }
+}
+
+button.menu-toggle,
+button.menu-toggle:hover {
+    background-color: $color_rosa !important;
+    border-color:$color_blanco !important;
+}
+
+button.menu-toggle:after,
+button.menu-toggle:before,
+button.menu-toggle span:before {  
+    background-color: $color_blanco !important;
+}
+
+button.menu-toggle span {
+    color:$color_blanco;
 }
 
 @media screen and (min-width: 768px){
@@ -32,6 +51,19 @@
 
     .storefront-primary-navigation {
         background-color: $color_rosa_dark;
+    }
+}
+
+@media screen and (max-width: 766px){
+    .storefront-primary-navigation .menu{
+        background-color: $color_rosa;
+        & ul {
+            padding-left: 20px;
+
+            & a {
+                font-size:18px;
+            }
+        }
     }
 }
    

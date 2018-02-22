@@ -1,0 +1,38 @@
+.fa.fa-shopping-cart::before {
+    margin-right: 5px;
+}
+
+.button.loading {
+    color: $color_rosa;
+}
+
+.button.loading:hover {
+    background-color: $color_rosa;
+}
+
+.button.loading:after {
+    color: $color_blanco;
+}
+
+.woocommerce-message {
+    background-color:$color_message_success;
+    color:$color_blanco;
+    font-size: 16px;
+}
+
+.site-header-cart {
+    .site-header-cart .count {
+        color:$color_blanco;
+    }
+}
+
+@media (min-width: 768px) {
+    .site-header-cart {
+        background-color: $color_rosa_hover;
+        padding-right: 10px;
+        padding-left: 10px; 
+        .cart-contents .count {
+            opacity: 1;
+        }
+    }
+}
