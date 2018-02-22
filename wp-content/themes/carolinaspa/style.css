@@ -298,3 +298,7 @@ li.redes-sociales .menu a {
     opacity: 1;
   }
 }
+
+.page-template-template-homepage .type-page {
+  margin-bottom: 0 !important;
+}
